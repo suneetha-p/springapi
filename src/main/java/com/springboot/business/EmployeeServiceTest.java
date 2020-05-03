@@ -28,4 +28,7 @@ public class EmployeeServiceTest {
     public void addEmployee(Employee employee) {
         empList.add(employee);
     }
+
+    public void replaceEmployee(Employee Employee){
+    }
 }
