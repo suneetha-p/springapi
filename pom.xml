@@ -16,7 +16,10 @@
     <artifactId>SpringBootTest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <properties>
+        <java.version>1.8</java.version>
+        <start-class>com.springboot.controller.MainTest</start-class>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -24,7 +27,5 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+
 </project>
